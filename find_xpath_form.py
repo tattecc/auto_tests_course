@@ -12,7 +12,7 @@ try:
     input2 = browser.find_element_by_name("last_name")
     input2.send_keys("Zhukova")
     input3 = browser.find_element_by_class_name("form-control.city")
-    input3.send_keys("Novosibirsk")
+    input3.send_keys("Saint Petersburg")
     input4 = browser.find_element_by_id("country")
     input4.send_keys("Russia")
     button = browser.find_element_by_xpath ('//button[@type="submit"]')
